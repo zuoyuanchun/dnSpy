@@ -57,8 +57,8 @@
     <OokiiDialogsWpfVersion>5.0.1</OokiiDialogsWpfVersion>
     <RoslynVersion>4.10.0</RoslynVersion>
     <SCCompositionVersion>8.0.0</SCCompositionVersion>
-    <NuGetVersion>6.10.0</NuGetVersion>
-    <DbgShimVersion>8.0.510501</DbgShimVersion>
+    <NuGetVersion>6.10.1</NuGetVersion>
+    <DbgShimVersion>8.0.532401</DbgShimVersion>
   </PropertyGroup>
 
   <Import Project="$(MSBuildThisFileDirectory)Build\ConvertToNetstandardReferences\ConvertToNetstandardReferences.tasks" Condition=" '$(IsDotNet)' == 'true' " />
