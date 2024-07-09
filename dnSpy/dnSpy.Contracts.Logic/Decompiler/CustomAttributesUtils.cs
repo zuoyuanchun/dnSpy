@@ -324,7 +324,8 @@ namespace dnSpy.Contracts.Decompiler {
 			var implAttr = method.ImplAttributes & ~MethodImplAttributes.CodeTypeMask;
 			var methodCodeType = method.ImplAttributes & MethodImplAttributes.CodeTypeMask;
 			if (method.ImplMap is ImplMap implMap) {
-				var declType = new TypeRefUser(module, systemRuntimeInteropServicesName, dllImportAttributeName, GetSystemRuntimeInteropServicesAssemblyRef(module));
+				var interopAsmRef = GetSystemRuntimeInteropServicesAssemblyRef(module);
+				var declType = new TypeRefUser(module, systemRuntimeInteropServicesName, dllImportAttributeName, interopAsmRef);
 				var ca = new CustomAttribute(new MemberRefUser(module, ctorName, MethodSig.CreateInstance(module.CorLibTypes.Void, module.CorLibTypes.String), declType));
 				ca.ConstructorArguments.Add(new CAArgument(module.CorLibTypes.String, implMap.Module?.Name ?? UTF8String.Empty));
 
@@ -355,7 +356,7 @@ namespace dnSpy.Contracts.Decompiler {
 					break;
 				}
 				if (callingConvention != System.Runtime.InteropServices.CallingConvention.Winapi) {
-					var callingConventionType = new ValueTypeSig(new TypeRefUser(module, systemRuntimeInteropServicesName, callingConventionName, module.CorLibTypes.AssemblyRef));
+					var callingConventionType = new ValueTypeSig(new TypeRefUser(module, systemRuntimeInteropServicesName, callingConventionName, interopAsmRef));
 					ca.NamedArguments.Add(new CANamedArgument(isField: true, callingConventionType, callingConventionName, new CAArgument(callingConventionType, (int)callingConvention)));
 				}
 
