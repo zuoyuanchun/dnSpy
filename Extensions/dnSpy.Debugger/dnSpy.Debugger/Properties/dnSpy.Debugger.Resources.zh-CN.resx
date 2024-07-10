@@ -1325,7 +1325,7 @@
     <value>启用托管调试助手 (MDA)</value>
   </data>
   <data name="DbgSettings_EnableJustMyCodeDebugging" xml:space="preserve">
-    <value>启用 "调试代码过滤"</value>
+    <value>启用"仅我的代码"</value>
   </data>
   <data name="DbgSettings_StepOverCodeInSystemModules" xml:space="preserve">
     <value>跳过系统模块中的代码(系统自带程序集)</value>
