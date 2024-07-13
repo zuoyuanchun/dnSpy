@@ -1777,9 +1777,6 @@
   <data name="SaveModule_AddPECheckSum" xml:space="preserve">
     <value>_Добавить контрольную сумму PE</value>
   </data>
-  <data name="SaveModule_AddMVIDSection" xml:space="preserve">
-    <value>_Добавить раздел MVID</value>
-  </data>
   <data name="SaveModule_CreateHeapEvenIfEmpty" xml:space="preserve">
     <value>Создавать кучу, даже если она пустая</value>
   </data>
@@ -2120,9 +2117,6 @@
   <data name="SaveModule_TablesHeap_UseENC" xml:space="preserve">
     <value>_Использовать #- Table</value>
   </data>
-  <data name="SaveModule_TablesHeap_ForceBigColumns" xml:space="preserve">
-    <value>_Принудительное разделение столбцов</value>
-  </data>
   <data name="CustomAttribute_NamedArg_Field" xml:space="preserve">
     <value>Поле</value>
   </data>
@@ -2306,12 +2300,6 @@
   <data name="ReplaceNopsInstrsCommand" xml:space="preserve">
     <value>_Заменить NOP-ами</value>
   </data>
-  <data name="ReplaceMethodBodyWithStubCommand" xml:space="preserve">
-    <value>Заменить тело метода заглушкой...</value>
-  </data>
-  <data name="ReplaceMethodBodyWithStubCommand2" xml:space="preserve">
-    <value>Заменить тело метода заглушкой</value>
-  </data>
   <data name="Type_Flags_Accessibility" xml:space="preserve">
     <value>_Доступность</value>
   </data>
@@ -2326,6 +2314,18 @@
   </data>
   <data name="Type_Flags_Visibility" xml:space="preserve">
     <value>_Видимость</value>
+  </data>
+  <data name="SaveModule_AddMVIDSection" xml:space="preserve">
+    <value>_Добавить раздел MVID</value>
+  </data>
+  <data name="SaveModule_TablesHeap_ForceBigColumns" xml:space="preserve">
+    <value>_Принудительное разделение столбцов</value>
+  </data>
+  <data name="ReplaceMethodBodyWithStubCommand" xml:space="preserve">
+    <value>Заменить тело метода заглушкой...</value>
+  </data>
+  <data name="ReplaceMethodBodyWithStubCommand2" xml:space="preserve">
+    <value>Заменить тело метода заглушкой</value>
   </data>
   <data name="CloseAllFrameworkAssembliesCommand" xml:space="preserve">
     <value>Закрыть все сборки фреймворка</value>

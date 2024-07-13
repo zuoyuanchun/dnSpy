@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -308,9 +308,6 @@
   </data>
   <data name="DetachAllCommand" xml:space="preserve">
     <value>_Отсоединить все</value>
-  </data>
-  <data name="DetachingWillCauseTerminationOfDebuggeeProcess" xml:space="preserve">
-    <value>Отсоединение приведет к завершению отлаживаемого процесса. Вы точно хотите продолжить?</value>
   </data>
   <data name="DisableAllBreakpointsCommand" xml:space="preserve">
     <value>_Выключить все точки останова</value>
@@ -729,12 +726,6 @@
   <data name="Window_Threads" xml:space="preserve">
     <value>Потоки</value>
   </data>
-  <data name="Window_StaticFields" xml:space="preserve">
-    <value>Статические поля</value>
-  </data>
-  <data name="StaticFieldsCommand" xml:space="preserve">
-    <value>_Статические поля</value>
-  </data>
   <data name="YesNo_No" xml:space="preserve">
     <value>Нет</value>
   </data>
@@ -951,18 +942,6 @@
   <data name="AddExceptionButton" xml:space="preserve">
     <value>Добавить</value>
   </data>
-  <data name="AddEnvironmentVariableButton" xml:space="preserve">
-    <value>Добавить</value>
-  </data>
-  <data name="AddEnvironmentVariablesMsgBoxTitle" xml:space="preserve">
-    <value>Добавьте переменные среды</value>
-  </data>
-  <data name="AddEnvironmentVariablesMsgBoxLabel" xml:space="preserve">
-    <value>Environment</value>
-  </data>
-  <data name="AddManyEnvironmentVariablesButton" xml:space="preserve">
-    <value>Add Many</value>
-  </data>
   <data name="ExceptionDescription" xml:space="preserve">
     <value>Описание исключения</value>
   </data>
@@ -971,9 +950,6 @@
   </data>
   <data name="EditConditions_Title" xml:space="preserve">
     <value>Редактировать условия</value>
-  </data>
-  <data name="EditEnvironmentVariables_Title" xml:space="preserve">
-    <value>Редактировать переменные среды</value>
   </data>
   <data name="Button_AddCondition" xml:space="preserve">
     <value>_Добавить условие</value>
@@ -1007,9 +983,6 @@
   </data>
   <data name="RemoveBreakpointCommand" xml:space="preserve">
     <value>Удалить точку останова</value>
-  </data>
-  <data name="RemoveEnvironmentVariableButton" xml:space="preserve">
-    <value>Удалять</value>
   </data>
   <data name="DisableBreakpointCommand3" xml:space="preserve">
     <value>Выключить точку останова</value>
@@ -1254,18 +1227,6 @@
   <data name="StartDebuggingCommand" xml:space="preserve">
     <value>Начать отладку</value>
   </data>
-  <data name="StartDebuggingWarning_UnknownBitness" xml:space="preserve">
-    <value>Разрядность целевого файла определить не удалось. Отладка может привести к нежелательному/неконтролируемому выполнению образа.
-
-Вы точно хотите продолжить?</value>
-  </data>
-  <data name="StartDebuggingWarning_IncorrectBitness" xml:space="preserve">
-    <value>Разрядность целевого файла не соответствует текущей версии dnSpy. Отладка может привести к нежелательному/неконтролируемому выполнению образа.
-
-Рекомендуется использовать 32-разрядный dnSpy для отладки 32-разрядных образов и 64-разрядный dnSpy для отладки 64-разрядных образов.
-
-Вы точно хотите продолжить?</value>
-  </data>
   <data name="Breakpoint_Tracepoint_BreakPrintMessage" xml:space="preserve">
     <value>Остановиться и вывести сообщение '{0}'</value>
   </data>
@@ -1323,9 +1284,6 @@
   <data name="ResetBreakpointHitCountCommand" xml:space="preserve">
     <value>Сбросить счетчик остановов</value>
   </data>
-  <data name="ResetEnvironmentVariablesButton" xml:space="preserve">
-    <value>сбросить</value>
-  </data>
   <data name="HelpToolTip" xml:space="preserve">
     <value>Справка</value>
   </data>
@@ -1356,9 +1314,6 @@
   <data name="InsertTracepointCommand" xml:space="preserve">
     <value>_Вставить точку трассировки</value>
   </data>
-  <data name="InvalidInputString" xml:space="preserve">
-    <value>Недопустимая строка ввода</value>
-  </data>
   <data name="UnwindToThisFrameCommand" xml:space="preserve">
     <value>_Размотать до этого кадра</value>
   </data>
@@ -1370,15 +1325,6 @@
   </data>
   <data name="DbgSettings_EnableManagedDebuggingAssistants" xml:space="preserve">
     <value>Включить помощники отладки управляемого кода (MDA)</value>
-  </data>
-  <data name="DbgSettings_EnableJustMyCodeDebugging" xml:space="preserve">
-    <value>Включить поддержку отладки только моего кода</value>
-  </data>
-  <data name="DbgSettings_StepOverCodeInSystemModules" xml:space="preserve">
-    <value>Переступать код в системных модулях</value>
-  </data>
-  <data name="DbgSettings_OnlyStepIntoCodeInPrimaryModule" xml:space="preserve">
-    <value>Входить только в код, расположенный в основном модуле</value>
   </data>
   <data name="DebugStepProcessError" xml:space="preserve">
     <value>Не могу перейти: {0}</value>
@@ -1583,5 +1529,35 @@
   </data>
   <data name="Column_LoadModule" xml:space="preserve">
     <value>Загрузить</value>
+  </data>
+  <data name="DetachingWillCauseTerminationOfDebuggeeProcess" xml:space="preserve">
+    <value>Отсоединение приведет к завершению отлаживаемого процесса. Вы точно хотите продолжить?</value>
+  </data>
+  <data name="Window_StaticFields" xml:space="preserve">
+    <value>Статические поля</value>
+  </data>
+  <data name="StaticFieldsCommand" xml:space="preserve">
+    <value>_Статические поля</value>
+  </data>
+  <data name="StartDebuggingWarning_UnknownBitness" xml:space="preserve">
+    <value>Разрядность целевого файла определить не удалось. Отладка может привести к нежелательному/неконтролируемому выполнению образа.
+
+Вы точно хотите продолжить?</value>
+  </data>
+  <data name="StartDebuggingWarning_IncorrectBitness" xml:space="preserve">
+    <value>Разрядность целевого файла не соответствует текущей версии dnSpy. Отладка может привести к нежелательному/неконтролируемому выполнению образа.
+
+Рекомендуется использовать 32-разрядный dnSpy для отладки 32-разрядных образов и 64-разрядный dnSpy для отладки 64-разрядных образов.
+
+Вы точно хотите продолжить?</value>
+  </data>
+  <data name="DbgSettings_EnableJustMyCodeDebugging" xml:space="preserve">
+    <value>Включить поддержку отладки только моего кода</value>
+  </data>
+  <data name="DbgSettings_StepOverCodeInSystemModules" xml:space="preserve">
+    <value>Переступать код в системных модулях</value>
+  </data>
+  <data name="DbgSettings_OnlyStepIntoCodeInPrimaryModule" xml:space="preserve">
+    <value>Входить только в код, расположенный в основном модуле</value>
   </data>
 </root>

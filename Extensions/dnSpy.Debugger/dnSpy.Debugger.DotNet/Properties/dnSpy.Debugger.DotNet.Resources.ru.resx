@@ -141,9 +141,6 @@
   <data name="DecompilerGeneratedVariablesCanNotBeEvaluated" xml:space="preserve">
     <value>Созданные декомпилятором переменные не могу быть вычислены</value>
   </data>
-  <data name="FailedToObtainValidInMemoryMetadataForModule" xml:space="preserve">
-    <value>Не удалось получить действительные метаданные в памяти для модуля!</value>
-  </data>
   <data name="GlyphToolTip_IL_offset_0" xml:space="preserve">
     <value>Смещение в IL {0}</value>
   </data>
@@ -188,5 +185,8 @@
   </data>
   <data name="UnknownVariableOrObjectId" xml:space="preserve">
     <value>Неизвестная идентификатор переменной или объекта</value>
+  </data>
+  <data name="FailedToObtainValidInMemoryMetadataForModule" xml:space="preserve">
+    <value>Не удалось получить действительные метаданные в памяти для модуля!</value>
   </data>
 </root>

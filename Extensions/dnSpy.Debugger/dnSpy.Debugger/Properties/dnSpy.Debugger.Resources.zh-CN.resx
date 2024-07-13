@@ -1255,14 +1255,14 @@
     <value>开始调试</value>
   </data>
   <data name="StartDebuggingWarning_UnknownBitness" xml:space="preserve">
-    <value>无法确定目标文件的位数。调试可能会导致不需要的或者不受控制的图像执行。
+    <value>无法确定目标文件的位数。调试可能会导致非预期的或者不受控制的程序映像执行。
 
 是否继续？</value>
   </data>
   <data name="StartDebuggingWarning_IncorrectBitness" xml:space="preserve">
-    <value>目标文件的位数与当前版本的 dnSpy 不匹配。调试可能会导致不需要的或者不受控制的图像执行。
+    <value>目标文件的位数与当前版本的 dnSpy 不匹配。调试可能会导致非预期的或者不受控制的程序映像执行。
 
-建议使用 32 位 dnSpy 调试 32 位图像，使用 64 位 dnSpy 调试 64 位图像。
+建议使用 32 位 dnSpy 调试 32 位程序，使用 64 位 dnSpy 调试 64 位程序。
 
 是否继续？</value>
   </data>
